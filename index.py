@@ -1,24 +1,4 @@
 from pyspark.sql import SparkSession
-from py4j.java_gateway import java_import
-
-# logFile = "README.md"  # Should be some file on your system
-# spark = SparkSession.builder.appName("SimpleApp").getOrCreate()
-# logData = spark.read.text(logFile).cache()
-
-# numAs = logData.filter(logData.value.contains('a')).count()
-# numBs = logData.filter(logData.value.contains('b')).count()
-
-# print("Lines with a: %i, lines with b: %i" % (numAs, numBs))
-
-# spark.stop()
-
-# from pyspark.sql import SparkSession
-# from pyspark.sql.types import StructType, StructField
-# from pyspark.sql.types import StringType, IntegerType
-
-from pyspark.sql import SparkSession
-from pyspark.sql.types import StructType, StructField
-from pyspark.sql.types import StringType, IntegerType
 
 spark = SparkSession.builder \
   .appName("TigerGraphAnalysis") \
