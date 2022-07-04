@@ -15,3 +15,5 @@ A sample project reading from TigerGraph with pySpark
 ## Overview
 
 This repository will walk you through how to get TigerGraph data using pySpark. It shows three possible methods to do so: retrieving vertices, retrieving edges, and running queries. 
+
+Find a thorough walkthrough of this project (set up, code explanation, etc.) [here](https://medium.com/datadriveninvestor/an-introduction-to-pyspark-and-tigergraph-9c3396835bc2).
